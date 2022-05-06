@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="A simple content slider with depth-like zoom functionality" />
+	<meta name="keywords" content="blueprint, template, slider, zoom, javascript, depth, 3d, css" />
+	<meta name="author" content="Codrops" />
+	<title>Momentos da nossa vida</title>
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- Feather Icons -->
+	<link rel="stylesheet" type="text/css" href="fonts/feather/style.css">
+	<!-- General demo styles & header -->
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<!-- Component styles -->
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<script src="js/modernizr.custom.js"></script>
+</head>
+<body>
+	<!-- Main container -->
+	<div class="container">
+		<!-- Blueprint header -->
+		<!-- Grid -->
+		<section class="slider">
+			<div class="slide slide--current" data-content="content-1">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="./images/1encontro.jpg" alt="FirstDate" width="200px"/>
+						<div class="preview">
+							<img src="./images/1encontro.jpg" alt="FirstDate" width="150px" />
+							<div class="zoomer__area zoomer__area--size-2"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>Nosso primeiro encontro</span> First Date</h2>
+			</div>
+			<div class="slide" data-content="content-2">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="./images/natal.jpg" alt="iPad Mini" width="200px"/>
+						<div class="preview">
+							<img src="./images/natal.jpg" alt="iPad Mini app preview" width="200px" />
+							<div class="zoomer__area zoomer__area--size-4"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>Nosso primeiro natal juntos</span> First Natal</h2>
+			</div>
+			<div class="slide" data-content="content-3">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="./images/Hot-Beach-Olímpia_02-1200x656.jpeg" alt="First Natal" width="200px"/>
+						<div class="preview">
+							<img src="./images/Hot-Beach-Olímpia_02-1200x656.jpeg" alt="First Natal" width="200px" />
+							<div class="zoomer__area zoomer__area--size-3"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>Thermas dos laranjais</span> Olimpia</h2>
+			</div>
+			<div class="slide" data-content="content-4">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="./images/Novo-Shopping.webp" alt="Novo" width="200px"/>
+						<div class="preview">
+							<img src="./images/Novo-Shopping.webp" alt="Novo" width="200px"/>
+							<div class="zoomer__area zoomer__area--size-5"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>Novo Shopping</span> Ribeirão Preto</h2>
+			</div>
+			<div class="slide" data-content="content-5">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="./images/terapia-espiritual-com-ectoplasma.jpg" alt="Cirurgia" width="200px" />
+						<div class="preview rounded">
+							<img src="./images/terapia-espiritual-com-ectoplasma.jpg" alt="Cirurgia" width="200px" />
+							<div class="zoomer__area zoomer__area--size-1"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>Cirurgia espiritual</span> A cirurgia</h2>
+			</div>
+			<div class="slide" data-content="content-6">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="./images/As-12-melhores-praias-de-Ubatuba_zarpo-1.jpg" alt="Praia" width="200px"/>
+						<div class="preview rounded">
+							<img src="./images/As-12-melhores-praias-de-Ubatuba_zarpo-1.jpg" alt="Praia" width="200px" />
+							<div class="zoomer__area zoomer__area--size-1"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>Nossa primeira viagem juntos</span> A viagem</h2>
+			</div>
+			<div class="slide" data-content="content-7">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="./images/feliz-aniversario-meu-amor.jpg.webp" alt="Meu amor" width="200px"/>
+						<div class="preview rounded">
+							<img src="./images/feliz-aniversario-meu-amor.jpg.webp" alt="Meu amor" width="200px" />
+							<div class="zoomer__area zoomer__area--size-1"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>Feliz aniversário amor</span> Para o amor da minha vida 😍😍😍😍😍😍</h2>
+			</div>
+			<nav class="slider__nav">
+				<button class="button button--nav-prev"><i class="icon icon--arrow-left"></i><span class="text-hidden">Previous product</span></button>
+				<button class="button button--zoom"><i class="icon icon--zoom"></i><span class="text-hidden">View details</span></button>
+				<button class="button button--nav-next"><i class="icon icon--arrow-right"></i><span class="text-hidden">Next product</span></button>
+			</nav>
+		</section>
+		<footer style="text-align:center">
+			<audio src="./images/Gusttavo Lima   60 Segundos (O Embaixador The Legacy).mp3" controls ></audio>
+			<p style="text-align:center">De o play e aprecie o album.</p>
+		</footer>
+		<!-- /slider-->
+		<section class="content">
+			<div class="content__item" id="content-1">
+				<img class="content__item-img rounded-right" src="./images/183537692_3915777258512408_7688868788190884901_n.jpg" alt="Primerafoto" />
+				<div class="content__item-inner">
+					<h2>Nossa primeira foto juntos</h2>
+					<h3>Amei</h3>
+					<p>Este foi o nosso primeiro encontro e nossa eu amei, você toda vergonhasa e eu todo malandrão kkk, amei cada detalhe seu nessa noite, e eu percebi que você é mt mais linda pessoalmente. Foi incrível essa noite! 😍</p>
+				</div>
+			</div>
+			<div class="content__item" id="content-2">
+				<img class="content__item-img rounded-right" src="./images/134705452_3568862919870512_4156894900068029446_n.jpg" alt="FirstNatal" />
+				<div class="content__item-inner">
+					<h2>Primeira foto no natal</h2>
+					<h3>Este natal foi o melhor da minha vida, Fantastic Day!!</h3>
+					<p>Lembro de você toda envorganhada por ter encontrado a minha família pela primeira vez, mas graças a Deus deu tudo certo e eles te amaram!!❤</p>
+				</div>
+			</div>
+			<div class="content__item" id="content-3">
+				<img class="content__item-img rounded-right" src="./images/183312167_3915776975179103_2381816147621301380_n.jpg" alt="Olimpia" />
+				<div class="content__item-inner">
+					<h2>A gente no parque aquático</h2>
+					<h3>O resgate</h3>
+					<p>Lembro de quando a gente foi na asa delta e mds vc gritou mt kkkkk mo cagona, e também lembro de quando eu te salvei da piscina de onda kkkkkkkkkkkk Nadadora nata🏊‍♀️!!</p>
+				</div>
+			</div>
+			<div class="content__item" id="content-4">
+				<img class="content__item-img rounded-right" src="./images/183724042_3915772341846233_7023540865599025640_n.jpg" alt="Novo" />
+				<div class="content__item-inner">
+					<h2>Novo shopping</h2>
+					<h3>Casquinha</h3>
+					<p>Esse dia a gente parou no shopping só para pegar a casquinha e eu lembro o que shopping estava totalmente fechado e a mulher ficou procurando a gente, e só depois da msg da moça a gente viu kkkk a casquinha tava uma deliciaaaaaaa</p>
+				</div>
+			</div>
+			<div class="content__item" id="content-5">
+				<img class="content__item-img rounded-right" src="./images/190166133_1730395670485928_7550922316276449247_n.jpg" alt="Apple Watch Content" />
+				<div class="content__item-inner">
+					<h2>Cirurgia do meu vô</h2>
+					<h3>Nesse dia tava um calor</h3>
+					<p>Esse dia a gente foi acompanhar o meu vô na cirurgia espiritual, você lembra o calor que tava, e se não me engano a gente comprou um salgado, ou uma água, mas foi legal esse dia, só de ter a sua presença se torna maravilhoso 😍😍</p>
+				</div>
+			</div>
+			<div class="content__item" id="content-6">
+				<img class="content__item-img rounded-right" src="./images/IMG-20211102-WA0005.jpg" alt="Apple Watch Content" />
+				<div class="content__item-inner">
+					<h2>Ubatuba</h2>
+					<h3>Primeira viagem juntos</h3>
+					<p>Amor você foi conversando comigo pelo caminho nossa e eu lembro como eu estava cansado dirigindo, mas aguentei pq vc me fez perder o sono, e a gente chegando dormimos que nem vimos kkk, essa viagem foi a melhor viagem que eu fiz até o momento sei que a gente ainda vai fazer muitas viagens pelo mundo, só sei que foi inesquecivel.😍😍😍😍😍😍 </p>
+				</div>
+			</div>
+			<div class="content__item" id="content-7">
+				<img class="content__item-img rounded-right" src="./images/Corinthians.jpg" alt="Apple Watch Content" />
+				<div class="content__item-inner">
+					<h2>Feliz Aniversário</h2>
+					<h3>Amor da minha vida</h3>
+					<p>Amor feliz Aniversário só tenho a agradecer a Deus por ter você na minha vida, você é a pessoa mais incrível do mundo, eu espero que eu esteja ao seu lado para sempre e que a gente construa a nossa vida, uma familia, nossa casa, fazer as nossas viagens, você é tudo que eu sempre quis amor, obrigado por tudo, você tem que saber que você é maravilhosa e eu tenho certeza que você pode conquistar tudo nesse mundo, só basta você acreditar em você igual eu acredito, você é uma pessoa cheia de luz e de amor, suas energias são boas, você é capaz de tudo, que você aproveite o seu dia como eu aproveito a minha vida ao seu ladooo, te amooooooooo muitooooooooo meu amoooooooooooooor, feliz aniversário, você é o amor da minha vida 😍😍😍😍😍😍😍😍❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤</p>
+				</div>
+			</div>
+			
+			<button class="button button--close"><i class="icon icon--circle-cross"></i><span class="text-hidden">Close content</span></button>
+		</section>
+	</div>
+	<script src="js/classie.js"></script>
+	<script src="js/dynamics.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
